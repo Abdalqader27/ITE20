@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:layoutDirection="ltr"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="ملفك الشخصي " />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="تطبيقاتك " />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_link_black_24dp"
+            android:title="روابط " />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Blue Bits Team" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="حول" />
+
+    </group>
+    <group>
+
+    <item android:title="Connect with us!"
+
+        android:layoutDirection="ltr">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="ِAbd Alqader Najjar" />
+            <item
+                android:id="@+id/nav_send2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mohmmad Babelly" />
+        </menu>
+    </item>
+
+    </group>
+</menu>

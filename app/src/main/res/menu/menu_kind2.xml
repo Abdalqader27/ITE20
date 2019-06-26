@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+    <item
+        android:id="@+id/kind2_1"
+        android:title="الاولى " />
+    <item
+        android:id="@+id/kind2_2"
+
+        android:title="الثانية" />
+    <item
+        android:id="@+id/kind2_3"
+
+        android:title="الثالثة" />
+    <item
+        android:id="@+id/kind2_4"
+
+        android:title="الرابعة" />
+</menu>

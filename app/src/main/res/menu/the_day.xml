@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+
+    <item
+        android:id="@+id/sunday"
+        android:title="الاحد"
+        />
+    <item
+        android:id="@+id/monday"
+        android:title="الاثنين"
+
+        />
+    <item
+        android:id="@+id/thirthday"
+
+        android:title="الثلاثاء" />
+    <item
+        android:id="@+id/wenthday"
+
+        android:title="الاربعاء" />
+    <item
+        android:id="@+id/tusday"
+
+        android:title="الخميس" />
+</menu>

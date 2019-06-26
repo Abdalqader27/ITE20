@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ITE20</string>
+    <string name="checkbox">com.example.android.ITE20.check box</string>
+    <string name="name">com.example.android.ITE20.name</string>
+    <string name="babellyEmail">mohammedababelly@gmail.com</string>
+    <string name="najjarEmail">abdalqader27.najjar@gmail.com</string>
+    <string name="dep"></string>
+
+
+    <string name="password">com.example.android.ITE20.password</string>
+    <string name="StartApp">الرجاء إدخال البيانات بشكل صحيح، لأنها غير قابلة للتغيير لاحقاً</string>
+    <string name="olinguito">محاضرات النظري</string>
+    <string name="olinguito1">محاضرات العملي</string>
+    <string name="aboutUs">
+يمكنك من خلاله قراءة وتحميل المحاضرات النظرية والعملية المعتمدة من فريق BlueBits
+وتستطيع الإطلاع على موادك وبرنامج الدوام بشكل يومي بعد إدخالك للمعلومات الشخصية الخاصة بشعبتك وفئتك العملية وتحديث البرنامج كل يوم بشكل تلقائي بالإضافة للعديد من روابط لكورسات تعليمة مجانية مميزة وروابط لتحميل البرامج المطلوب العمل بها وأخيرا إمكانية إدخال العلامات النظرية والعملية كل على حدا وحساب معدلك النهائي بعد إتمام جميع الإمتحانات  </string>
+    <string name="workngTeam">محمد بابللي - عبد القادر النجار</string>
+
+
+
+    //
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ITE 20 </string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+//
+    <string name="menu">Menu</string>
+    <string name="subtitle">ITE 20</string>
+    <string name="option1">Option 1</string>
+    <string name="option2">Option 2</string>
+    <string name="option3">Option 3</string>
+    <string name="details">التفاصيل</string>
+    <string name="info">هدفنا في #BLUE_BITS ليس فقط ان نعيد كتابة المحاضرات،وإنما تحسين جودة التعليم وتقديم النصائح والادوات التي تجعل منكم متعلمين أفضل ... هدفنا ان نرتقي بالتعليم وبالتالي ان نرتقي بالمجتمع ...
+وكل الشكر والتقدير للهيئة الإدارية في كلية الهندسة المعلوماتية التي كانت الداعم لقضايا الطلية على الدوام </string>
+</resources>
