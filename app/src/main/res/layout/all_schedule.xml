@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_columnWeight="1">
@@ -30,7 +30,7 @@
 
                 />
 
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
         <ScrollView
@@ -61,7 +61,7 @@
                     android:background="#f2f2f2"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -112,10 +112,10 @@
                         </LinearLayout>
 
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -164,9 +164,9 @@
                         </LinearLayout>
 
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -214,7 +214,7 @@
                         </LinearLayout>
 
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
                     <Button
                         android:id="@+id/show"
@@ -229,7 +229,7 @@
                 </LinearLayout>
 
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:layout_columnWeight="1"
@@ -277,9 +277,9 @@
                             android:textColor="#000000"
                             android:textSize="15dp" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:layout_columnWeight="1"
@@ -326,9 +326,9 @@
                             android:textColor="#000000"
                             android:textSize="15dp" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:layout_columnWeight="1"
@@ -374,9 +374,9 @@
                             android:textColor="#000000"
                             android:textSize="15dp" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:layout_columnWeight="1"
@@ -422,9 +422,9 @@
                             android:textColor="#000000"
                             android:textSize="15dp" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="90dp"
                     android:layout_columnWeight="1"
@@ -470,7 +470,7 @@
                             android:textColor="#000000"
                             android:textSize="15dp" />
                     </LinearLayout>
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
 
             </LinearLayout>

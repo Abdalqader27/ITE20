@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.v4.widget.NestedScrollView
+        <androidx.core.widget.NestedScrollView
             android:id="@+id/scrollView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
-                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                     android:id="@+id/card"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -40,7 +40,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <android.support.v7.widget.Toolbar
+                        <androidx.appcompat.widget.Toolbar
                             android:id="@+id/toolbarCard"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
 
                     </LinearLayout>
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
 
                 <LinearLayout
@@ -119,7 +119,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="64dp"
                         android:layout_columnWeight="1"
@@ -153,7 +153,7 @@
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/folder" />
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
@@ -163,7 +163,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="64dp"
                         android:layout_columnWeight="1"
@@ -197,7 +197,7 @@
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/folder" />
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
@@ -207,7 +207,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="64dp"
                         android:layout_columnWeight="1"
@@ -242,7 +242,7 @@
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/folder" />
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
@@ -252,7 +252,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="64dp"
                         android:layout_columnWeight="1"
@@ -287,7 +287,7 @@
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/folder" />
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
@@ -297,7 +297,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="64dp"
                         android:layout_columnWeight="1"
@@ -332,7 +332,7 @@
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/folder" />
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
@@ -342,7 +342,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="64dp"
                         android:layout_columnWeight="1"
@@ -377,7 +377,7 @@
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/folder" />
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
@@ -387,7 +387,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="64dp"
                         android:layout_columnWeight="1"
@@ -422,7 +422,7 @@
                                 android:scaleType="centerCrop"
                                 android:src="@drawable/folder" />
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
 
                 </LinearLayout>
@@ -430,7 +430,7 @@
 
             </LinearLayout>
 
-        </android.support.v4.widget.NestedScrollView>
+        </androidx.core.widget.NestedScrollView>
 
 
     </LinearLayout>

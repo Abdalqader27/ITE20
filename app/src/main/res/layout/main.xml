@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
@@ -10,14 +10,14 @@
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/app_bar_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
         android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <android.support.design.widget.CollapsingToolbarLayout
+        <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -33,7 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="172dp">
 
-                <android.support.v7.widget.Toolbar
+                <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolBar"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -41,11 +41,11 @@
                     app:popupTheme="@style/Base.ThemeOverlay.AppCompat.Light" />
             </FrameLayout>
 
-        </android.support.design.widget.CollapsingToolbarLayout>
-    </android.support.design.widget.AppBarLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:id="@+id/nested_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
 
 
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
@@ -89,7 +89,7 @@
                     android:orientation="vertical">
 
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -124,7 +124,7 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="horizontal">
 
-                                <android.support.v7.widget.CardView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="170dp"
                                     android:layout_columnWeight="1"
@@ -151,9 +151,9 @@
                                         android:layout_marginTop="15dp"
                                         android:padding="25dp"
                                         android:src="@drawable/sx" />
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
 
-                                <android.support.v7.widget.CardView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="170dp"
                                     android:layout_columnWeight="1"
@@ -188,10 +188,10 @@
                                         android:padding="20dp"
                                         android:src="@drawable/sd" />
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
                             </LinearLayout>
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -227,7 +227,7 @@
 
                                 android:gravity="center_horizontal">
 
-                                <android.support.v7.widget.CardView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="130dp"
                                     android:layout_height="130dp"
                                     android:layout_columnWeight="1"
@@ -254,9 +254,9 @@ android:onClick="Myscedual"                                    android:padding="
                                         android:layout_marginTop="15dp"
                                         android:padding="10dp"
                                         android:src="@drawable/tim" />
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
 
-                                <android.support.v7.widget.CardView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="130dp"
                                     android:layout_height="130dp"
                                     android:layout_columnWeight="1"
@@ -286,9 +286,9 @@ android:onClick="Myscedual"                                    android:padding="
                                         android:padding="9dp"
                                         android:src="@drawable/cds" />
 
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
 
-                                <android.support.v7.widget.CardView
+                                <androidx.cardview.widget.CardView
                                     android:layout_width="130dp"
                                     android:layout_height="130dp"
                                     android:layout_columnWeight="1"
@@ -316,7 +316,7 @@ android:onClick="Myscedual"                                    android:padding="
                                         android:layout_marginTop="15dp"
                                         android:padding="9dp"
                                         android:src="@drawable/d" />
-                                </android.support.v7.widget.CardView>
+                                </androidx.cardview.widget.CardView>
 
 
                             </LinearLayout>
@@ -331,7 +331,7 @@ android:onClick="Myscedual"                                    android:padding="
                         android:orientation="horizontal">
 
 
-                        <android.support.v7.widget.CardView
+                        <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
                             android:layout_height="140dp"
                             android:layout_columnWeight="1"
@@ -362,12 +362,12 @@ android:onClick="Myscedual"                                    android:padding="
                                 android:padding="15dp"
                                 android:src="@drawable/dd" />
 
-                        </android.support.v7.widget.CardView>
+                        </androidx.cardview.widget.CardView>
 
 
                     </LinearLayout>
 
-                    <android.support.v7.widget.CardView
+                    <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_columnWeight="1"
@@ -399,17 +399,17 @@ android:onClick="Myscedual"                                    android:padding="
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent">
 
-                                <android.support.v7.widget.RecyclerView
+                                <androidx.recyclerview.widget.RecyclerView
                                     android:id="@+id/itherapp_Recycle"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_margin="7dp">
 
 
-                                </android.support.v7.widget.RecyclerView>-->
+                                </androidx.recyclerview.widget.RecyclerView>-->
                             </LinearLayout>
                         </LinearLayout>
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -429,9 +429,9 @@ android:onClick="Myscedual"                                    android:padding="
                     </LinearLayout>
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -449,13 +449,13 @@ android:onClick="Myscedual"                                    android:padding="
                     android:paddingBottom="5dp">
 
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -500,7 +500,7 @@ android:onClick="Myscedual"                                    android:padding="
                         android:textAppearance="@style/TextAppearance.AppCompat.Title"
                         android:textColor="#bfbfbf" />
                 </LinearLayout>
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <View
                 android:layout_width="match_parent"
@@ -508,7 +508,7 @@ android:onClick="Myscedual"                                    android:padding="
         </LinearLayout>
 
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 
     <include
@@ -516,7 +516,7 @@ android:onClick="Myscedual"                                    android:padding="
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-   <android.support.design.widget.NavigationView
+   <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -526,4 +526,4 @@ android:onClick="Myscedual"                                    android:padding="
         app:menu="@menu/activity_main_drawer"
         tools:visibility="gone" />-->
 
-</android.support.v4.widget.DrawerLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
